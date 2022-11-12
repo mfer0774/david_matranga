@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `david_matranga`,
+    title: `Test Page`,
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [{
@@ -11,9 +11,8 @@ module.exports = {
   }, "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',
     options: {
-      "name": "images",
-      "path": "./src/images/"
+      name: `blog`,
+      path: `${__dirname}/blog`,
     },
-    __key: "images"
   }]
 };
