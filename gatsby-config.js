@@ -8,7 +8,7 @@ module.exports = {
     options: {
       "trackingId": "G-1BJTL68YT9"
     }
-  }, "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
+  }, "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-mdx", {
     resolve: 'gatsby-source-filesystem',
     options: {
       name: `blog`,
